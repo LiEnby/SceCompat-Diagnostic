@@ -1,5 +1,3 @@
-# SceCompat-Diagnostic
-
 Repack of SceCompat Diagnostic to run on any vita/psp
 
 - Vita OFW
@@ -8,10 +6,12 @@ Repack of SceCompat Diagnostic to run on any vita/psp
 
 - Vita CFW
 
-	Copy ``PSP/GAME/SIMP01042`` to ``ux0:/pspemu/PSP/GAME/SIMP01042``
-	start "SceCompat Diagnostic" in adrenaline, ark-4 or via NoPspEmuDrm.
+	Copy ``PSP/GAME/SIMP01042/EBOOT.PBP`` to ``ux0:/pspemu/PSP/GAME/SIMP01042/EBOOT.PBP``
+	start "SceCompat Diagnostic" in adrenaline, ark-4
+	
+    (for NoPspEmuDrm: use ``EBOOT_DRMBIND.PBP``)
 
 - PSP OFW/CFW
 
-	Copy ``PSP/GAME/SIMP01042`` to ``ms0:/PSP/GAME/SIMP01042``
+	Copy ``PSP/GAME/SIMP01042/EBOOT.PBP`` to ``ux0:/pspemu/PSP/GAME/SIMP01042/EBOOT.PBP``
 	Start "SceCompat Diagnostic"

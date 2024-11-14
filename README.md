@@ -1,6 +1,6 @@
 # SceCompat-Diagnostic
 
-Various distributions of SceCompat Diagnostic
+Repack of SceCompat Diagnostic to run on any vita/psp
 
 - Vita OFW
 
